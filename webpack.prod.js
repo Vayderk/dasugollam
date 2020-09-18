@@ -69,10 +69,6 @@ module.exports = {
             template: "./src/index.html",
             filename: "./index.html"
         }),
-        new HtmlWebPackPlugin({
-            template: "./src/html/photosWeb/index.html",
-            filename: "./html/photosWeb/index.html"
-        }),
         new MiniCssExtractPlugin({
             filename: "[name].[contentHash].css",
             ignoreOrder: false
@@ -82,6 +78,7 @@ module.exports = {
             { from: 'src/assets', to: 'src/assets/' },
             { from: 'src/css', to: 'src/css/' },
             { from: 'src/js', to: 'src/js' },
+            { from: 'src/html', to: 'src/html' },
              ],
         }),
         new MinifyPlugin(),
