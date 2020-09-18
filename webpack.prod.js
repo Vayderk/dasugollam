@@ -76,6 +76,9 @@ module.exports = {
         new CopyPlugin({
             patterns: [
             { from: 'src/assets', to: 'assets/' },
+            { from: 'src/css', to: 'css/' },
+            { from: 'src/js', to: 'js' },
+            { from: 'src/html', to: 'html' },
              ],
         }),
         new MinifyPlugin(),
