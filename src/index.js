@@ -1,4 +1,2 @@
-import { saludar} from "./js/functions";
+import { saludar } from "./js/functions";
 import "./styles.css";
-
-saludar("DanielG")

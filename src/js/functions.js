@@ -12,3 +12,7 @@ export const saludar = (nombre) => {
 
     document.body.append(h2);
 }
+
+
+
+
